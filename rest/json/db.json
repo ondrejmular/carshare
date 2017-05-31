@@ -1,0 +1,85 @@
+{
+  "refunds": [
+    {
+      "id": 1,
+      "email": "a@a.sk"
+    },
+    {
+      "id": 2
+    },
+    {
+      "email": "mail@davidkaya.sk",
+      "id": 3
+    },
+    {
+      "email": "test@test.sk",
+      "id": 4
+    },
+    {
+      "email": "",
+      "id": 5
+    },
+    {
+      "email": "mail@davidkaya.sk",
+      "id": 6
+    },
+    {
+      "email": "mail@davidkaya.sk",
+      "id": 7
+    },
+    {
+      "email": "",
+      "id": 8
+    },
+    {
+      "email": "#{userEmail}",
+      "id": 9
+    },
+    {
+      "email": "mail@davidkaya.sk",
+      "id": 10
+    }
+  ],
+  "feedbacks": [
+    {
+      "id": 1,
+      "email": "a@a.sk",
+      "feedback": "hello"
+    },
+    {
+      "email": "mail@davidkaya.sk",
+      "feedback": "test",
+      "id": 2
+    },
+    {
+      "email": "mail@davidkaya.sk",
+      "feedback": "The driver was aggresive.",
+      "id": 3
+    },
+    {
+      "email": "mail@davidkaya.sk",
+      "feedback": "Driver was aggresive",
+      "id": 4
+    },
+    {
+      "email": "mail@davidkaya.sk",
+      "feedback": "asa",
+      "id": 5
+    },
+    {
+      "email": "mail@davidkaya.sk",
+      "feedback": "No",
+      "id": 6
+    },
+    {
+      "email": "mail@davidkaya.sk",
+      "feedback": "",
+      "id": 7
+    },
+    {
+      "email": "ondrejmular@gmail.com",
+      "feedback": "adssaa",
+      "id": 8
+    }
+  ]
+}
