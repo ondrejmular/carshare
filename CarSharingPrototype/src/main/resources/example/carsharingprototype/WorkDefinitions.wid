@@ -1,0 +1,146 @@
+import org.drools.core.process.core.datatype.impl.type.StringDataType;
+import org.drools.core.process.core.datatype.impl.type.ObjectDataType;
+import org.drools.core.process.core.datatype.impl.type.BooleanDataType;
+
+[
+  [
+    "name" : "Email",
+    "parameters" : [
+      "From" : new StringDataType(),
+      "To" : new StringDataType(),
+      "Subject" : new StringDataType(),
+      "Body" : new StringDataType()
+    ],
+    "displayName" : "Email",
+    "icon" : "defaultemailicon.gif"
+  ],
+
+  [
+    "name" : "Log",
+    "parameters" : [
+      "Message" : new StringDataType()
+    ],
+    "displayName" : "Log",
+    "icon" : "defaultlogicon.gif"
+  ],
+
+  [
+    "name" : "WebService",
+    "parameters" : [
+        "Url" : new StringDataType(),
+         "Namespace" : new StringDataType(),
+         "Interface" : new StringDataType(),
+         "Operation" : new StringDataType(),
+         "Parameter" : new StringDataType(),
+         "Endpoint" : new StringDataType(),
+         "Mode" : new StringDataType()
+    ],
+    "results" : [
+        "Result" : new ObjectDataType(),
+    ],
+    "displayName" : "WS",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+
+  [
+    "name" : "Rest",
+    "parameters" : [
+        "Url" : new StringDataType(),
+        "Method" : new StringDataType(),
+        "ConnectTimeout" : new StringDataType(),
+        "ReadTimeout" : new StringDataType(),
+        "Username" : new StringDataType(),
+        "Password" : new StringDataType()
+    ],
+    "results" : [
+        "Result" : new ObjectDataType(),
+    ],
+    "displayName" : "REST",
+    "icon" : "defaultservicenodeicon.png"
+  ],
+  
+  [
+    "name" : "CreateUser", 
+    "parameters" : [ 
+        "User" : new ObjectDataType("example.carsharingprototype.User")
+    ], 
+    "results" : [
+        "Results": new BooleanDataType()
+    ], 
+    "displayName" : "CreateUser", 
+    "icon" : "defaultservicenodeicon.png" 
+  ],
+  
+  [
+    "name" : "ActivateUser", 
+    "parameters" : [ 
+        "User" : new ObjectDataType("example.carsharingprototype.User")
+    ], 
+    "results" : [
+        "Results": new BooleanDataType()
+    ], 
+    "displayName" : "ActivateUser", 
+    "icon" : "defaultservicenodeicon.png" 
+  ],
+  
+  [
+    "name" : "RemoveUser", 
+    "parameters" : [ 
+        "User" : new ObjectDataType("example.carsharingprototype.User")
+    ], 
+    "results" : [
+        "Results": new BooleanDataType()
+    ], 
+    "displayName" : "RemoveUser", 
+    "icon" : "defaultservicenodeicon.png" 
+  ],
+  
+  [
+    "name" : "VerifyUser", 
+    "parameters" : [ 
+        "User" : new ObjectDataType("example.carsharingprototype.User")
+    ], 
+    "results" : [
+        "Results": new BooleanDataType()
+    ], 
+    "displayName" : "VerifyUser", 
+    "icon" : "defaultservicenodeicon.png" 
+  ],
+  
+  [
+    "name" : "CreateCar", 
+    "parameters" : [ 
+        "Car" : new ObjectDataType("example.carsharingprototype.Carr")
+    ], 
+    "results" : [
+        "Results": new BooleanDataType()
+    ], 
+    "displayName" : "CreateCar", 
+    "icon" : "defaultservicenodeicon.png" 
+  ],
+  
+  [
+    "name" : "VerifyCar", 
+    "parameters" : [ 
+        "Car" : new ObjectDataType("example.carsharingprototype.Car")
+    ], 
+    "results" : [
+        "Results": new BooleanDataType()
+    ], 
+    "displayName" : "VerifyCar", 
+    "icon" : "defaultservicenodeicon.png" 
+  ],
+  
+  [
+    "name" : "RemoveCar", 
+    "parameters" : [ 
+        "Car" : new ObjectDataType("example.carsharingprototype.Car")
+    ], 
+    "results" : [
+        "Results": new BooleanDataType()
+    ], 
+    "displayName" : "RemoveCar", 
+    "icon" : "defaultservicenodeicon.png" 
+  ]
+
+]
